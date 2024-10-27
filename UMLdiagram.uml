@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/1.meinz/1.technikum/sem3/java/swen1_intermediate</OriginalElement>
+  <nodes>
+    <node x="587.5046401011698" y="2107.7744874876134">org.example.models.SpellCard</node>
+    <node x="682.615216559945" y="1216.201756126562">org.example.dto.CreateUserDto</node>
+    <node x="1025.2000751359446" y="891.3292805824701">org.example.httpServer.server.HeaderMap</node>
+    <node x="435.92535004723163" y="1331.0194489702221">org.example.models.UserWithToken</node>
+    <node x="795.9887460373634" y="2018.1617402941265">org.example.httpServer.server.Response</node>
+    <node x="191.90417718687712" y="756.6713259559133">org.example.httpServer.httpRequestHandler.UserStorage</node>
+    <node x="93.83264629397044" y="1176.4900574080311">org.example.httpServer.http.HttpStatus</node>
+    <node x="797.6557387697305" y="1817.9457662490152">org.example.httpServer.httpRequestHandler.UserHTTPHandler</node>
+    <node x="720.4906173055805" y="946.9501090454136">org.example.httpServer.http.ContentType</node>
+    <node x="652.8034861843307" y="1711.163019974599">org.example.exceptions.EntityAlreadyExistsException</node>
+    <node x="843.5271966459911" y="710.5963674887055">org.example.httpServer.server.Service</node>
+    <node x="660.6887661339427" y="1480.5133361028666">org.example.models.ElementType</node>
+    <node x="385.75261817759065" y="1506.4843084461768">org.example.dto.LoginUserDto</node>
+    <node x="583.3534968434967" y="1950.5319516229442">org.example.models.MonsterCard</node>
+    <node x="407.4714998409678" y="1080.2598594085518">org.example.models.User</node>
+    <node x="279.31533589280247" y="1968.2893067870737">org.example.models.Card</node>
+    <node x="366.89512341186725" y="955.5315158064411">org.example.httpServer.httpRequestHandler.ClientHandler</node>
+    <node x="616.8067490945198" y="819.3368135536563">org.example.Main</node>
+    <node x="-137.3708735933177" y="-13.83028572920307">org.example.httpServer.server.Request</node>
+    <node x="541.923067852584" y="520.8757337712499">org.example.httpServer.http.Method</node>
+    <node x="104.50672324349836" y="1660.032662260967">org.example.exceptions.InvalidDataException</node>
+    <node x="100.71446817323364" y="954.147116712477">org.example.models.Stack</node>
+    <node x="239.03921731466602" y="477.85241945407216">org.example.models.Deck</node>
+    <node x="76.98487420395482" y="1778.6983358957334">org.example.httpServer.HttpServer</node>
+    <node x="363.15392766423446" y="1752.5216125427908">org.example.models.Package</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.example.models.SpellCard" target="org.example.models.Card" relationship="GENERALIZATION">
+      <point x="-62.9996401011698" y="-4.874876133271755E-4" />
+      <point x="551.0" y="2121.774" />
+      <point x="551.0" y="2096.7889999999998" />
+      <point x="119.49966410719753" y="-3.067870736686018E-4" />
+    </edge>
+    <edge source="org.example.models.MonsterCard" target="org.example.models.Card" relationship="GENERALIZATION">
+      <point x="-76.0004968434967" y="4.837705569116224E-5" />
+      <point x="551.0" y="1964.532" />
+      <point x="551.0" y="2096.7889999999998" />
+      <point x="119.49966410719753" y="-3.067870736686018E-4" />
+    </edge>
+    <edge source="org.example.models.UserWithToken" target="org.example.models.User" relationship="GENERALIZATION">
+      <point x="-10.953850206263837" y="-44.5" />
+      <point x="0.0" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8291058835730089" showDependencies="false" x="1023.0314214983714" y="1262.005128338762" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

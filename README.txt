@@ -1,1 +1,1 @@
-git link:
+git link: https://github.com/Gr-eggs/swen1-mtcg.git
